@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mc Laren</title>
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="./assets/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <!-- Font Awesome -->
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <main class="login-form">
+            <div class="main-content">
+                <div class="login">
+                    <h1 class="title">WELCOME BACK</h1>
+                    <p class="desc">Welcome back! Please enter your details.</p>
+                    <form method="post">
+                        <div class="login-email">
+                            <label for="email">Email</label><br />
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="Enter your email"
+                                required
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                            />
+                            <p class="error">Please enter correct email
+                            </p>
+                        </div>
+                        <div class="login-pass">
+                            <label for="password">Password</label><br />
+                            <input
+                                type="password"
+                                name="password"
+                                id="password"
+                                placeholder="*********"
+                                required
+                                minlength="8"
+                            />
+                            <p class="error">Password must have 8 characters
+                            </p>
+                        </div>
+                        <div class="login-tool">
+                            <div class="login-remember">
+                                <input
+                                    type="checkbox"
+                                    name="remember"
+                                    id="remember"
+                                />
+                                <label for="remember" class="remember-me"
+                                    >Remember me</label
+                                >
+                            </div>
+                            <a href="#!" class="forgot">Forgot password</a>
+                        </div>
+                        <button type="submit" class="sign-in">Sign in</button>
+                        <button type="submit" class="google">
+                            <img
+                                src="./assets/img/free-icon-google-300221 1.svg"
+                                alt=""
+                            />
+
+                            Sign in with Google
+                        </button>
+                    </form>
+                    <a href="#!" class="sub-title"
+                        ><p class="sub">Don’t have an account</p>?<strong
+                            >Sign up fo free!</strong
+                        ></a
+                    >
+                </div>
+            </div>
+            <div class="picture">
+                <img
+                    src="./assets/img/mL1721_1024x1024.webp"
+                    alt=""
+                    class="symbolize"
+                />
+            </div>
+        </main>
+    </body>
+</html>

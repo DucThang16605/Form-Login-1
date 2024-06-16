@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.login-form {
+    display: flex;
+    width: 100%;
+    background-color: #F8F8F8;
+}
+
+.main-content {
+    width: 45%;
+}
+
+.login {
+    margin: 200px 150px;
+    width: 330px;
+}
+
+.login .title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.login .desc {
+    font-size: 1.6rem;
+    color: #636364;
+    margin-top: 15px;
+}
+
+.login .login-email {
+    margin-top: 50px;
+}
+
+.login .login-email label {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login .login-email input {
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 12px;
+    padding-left: 15px;
+}
+
+.login-email:has(:invalid:not(:placeholder-shown)) .error {
+    display: block;
+}
+
+.login .login-pass {
+    margin-top: 30px;
+}
+
+.login .login-pass label {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login .login-pass input {
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 12px;
+    padding-left: 15px;
+}
+
+.login .login-pass input::placeholder {
+    height: 8px;
+}
+
+.login-pass:has(:invalid:not(:placeholder-shown)) .error {
+    display: block;
+}
+
+.login-tool {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.login-remember input[type="checkbox"] {
+    width: 20px;
+    height: 15px;
+    border-radius: 9999px;
+    border: 1px solid #C4C4C4;
+}
+
+.login-remember {
+    display: flex;
+    align-items: center;
+}
+
+.login-remember .remember-me {
+    color: #181818;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+p.error {
+    font-size: 15px ;
+    color: red;
+    font-weight: 500;
+    margin: 8px;
+    display: none;
+}
+
+.login-tool .forgot {
+    margin-left: auto;
+    text-decoration: none;
+    color: #181818;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.sign-in {
+    width: 100%;
+    margin-top: 15px;
+    height: 40px;
+    background-color: #EA454C;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    box-shadow: 5px 5px transparent;
+    cursor: pointer;
+}
+
+.sign-in:hover {
+    opacity: 0.9;
+}
+
+.google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 2px solid #636364;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid #636364;
+    padding: 4px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.google:hover {
+    background-color: #eee;
+}
+
+.google img {
+    margin-right: 10px;
+}
+
+.sub-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #636364;
+    font-weight: 500;
+}
+
+.sub-title .sub:hover {
+    text-decoration: underline;
+}
+
+strong {
+    margin-left: 3px;
+    color: #EA454C;
+}
+
+strong:hover {
+    text-decoration: underline;
+}
+
+.picture {
+    margin-left: auto;
+}
+
+.symbolize {
+    width: 60vw;
+    height: 100vh;
+    margin-left: auto;
+}
